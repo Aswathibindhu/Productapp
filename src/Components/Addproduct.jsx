@@ -2,8 +2,16 @@ import React from 'react'
 import Navigationbar from './Navigationbar'
 
 const Addproduct = () => {
+    const containerStyle = {
+        backgroundImage: 'url("https://www.shopbase.com/blog/wp-content/uploads/2022/05/winning-product-la-gi-1.jpg")', 
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+    };
   return (
-    <div>
+    <div style={containerStyle}>
         <Navigationbar/>
 
         <div className="container">

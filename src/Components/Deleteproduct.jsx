@@ -2,8 +2,16 @@ import React from 'react'
 import Navigationbar from './Navigationbar'
 
 const Deleteproduct = () => {
+    const containerStyle = {
+        backgroundImage: 'url("https://imageio.forbes.com/specials-images/imageserve/650dbf1ff4b9303a43ef747a/Online-Shopping/960x0.png?format=png&width=960")', 
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+    };
   return (
-    <div>
+    <div style={containerStyle}>
     <Navigationbar/>
         <div className="container">
             <div className="row">

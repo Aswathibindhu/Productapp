@@ -2,8 +2,16 @@ import React from 'react'
 import Navigationbar from './Navigationbar'
 
 const Searchproduct = () => {
+    const containerStyle = {
+        backgroundImage: 'url("https://wizzy.ai/blog/wp-content/uploads/2021/09/product-detail-page-CTA.png")', 
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+    };
   return (
-    <div>
+    <div style={containerStyle}>
     <Navigationbar/>
      <div className="container">
         <div className="row">
